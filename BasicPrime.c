@@ -1,5 +1,19 @@
-//ç´ æ•°æ˜¯åªæœ‰1å’Œæœ¬èº«æ˜¯å› å­çš„æ•°
-//2018/11/14 æ›´æ–°
-int main() {
-    //to do sth
+#include<stdio.h>
+#include<math.h>
+int main(void)
+{
+	int a,b;
+	printf("ÇëÊäÈëÒ»¸öÕûÊı£º"); 
+	scanf("%d",&a);
+	b = sqrt(a);
+	int i = 2;
+	int x = 0;
+	while(i <= b)
+	{
+		if(a % i == 0) x++;
+		i++;
+	}
+	if(x > 0) printf("Õâ¸öÊı²»ÊÇËØÊı");
+	else printf("Õâ¸öÊıÊÇËØÊı");
+	return 0;
 }
