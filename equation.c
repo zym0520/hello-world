@@ -1,3 +1,4 @@
+//二元一次方程求解// 
 #include<stdio.h>
 main(void)
 {
